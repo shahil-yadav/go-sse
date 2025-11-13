@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sse example</title>
+  <link rel="stylesheet" href="scss/styles.scss">
+  <script type="module" src="./js/main.js"></script>
+</head>
+
+<body>
+  <div class="container py-4 px-3 mx-auto">
+    <header class="d-flex justify-content-between align-items-center pb-3 mb-5 border-bottom">
+      <h1 class="h4">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+          <img width="150px" src="./assets/logo.webp" alt="" srcset="">
+          <span>go-sse + web</span>
+        </a>
+      </h1>
+      <a href="https://github.com/tmaxmax/go-sse" target="_blank" rel="noopener">View on GitHub</a>
+    </header>
+
+    <h4>Created with Bootstrap + Vite</h4>
+    <p>listening events from "/sse" go http.Handler</p>
+    
+    <!-- dynamically add <li> items via listening sse events -->
+    <ul class="icon-list">
+    </ul>
+
+    <hr class="mt-5 mb-4">
+    <p class="text-muted">Created and open sourced by the Bootstrap team. Licensed MIT.</p>
+  </div>
+</body>
+
+</html>
